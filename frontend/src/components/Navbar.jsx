@@ -22,7 +22,7 @@ const Navbar = () => {
   return (
     <nav style={styles.nav}>
       <Link to="/" style={styles.brand}>
-        🏥 DocAppoint
+        🏥 CarePoint
       </Link>
       <div style={styles.links}>
         <Link to="/" style={styles.link}>Home</Link>
