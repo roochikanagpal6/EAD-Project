@@ -187,20 +187,3 @@ Use these test card details:
 
 ---
 
-## ❓ Common Issues
-
-**"Cannot connect to MongoDB"**
-→ Check your MONGO_URI in .env. Make sure your IP is whitelisted in Atlas (Network Access → Add 0.0.0.0/0 for development)
-
-**"Token not found" errors**
-→ Make sure you're logged in. Token is stored in localStorage.
-
-**Stripe payment not working**
-→ Make sure you're using TEST keys (starts with sk_test_ and pk_test_)
-
-**Emails not sending**
-→ Gmail requires an "App Password". Go to Google Account → Security → 2-Step Verification → App Passwords
-
----
-
-Built with ❤️ as a Final Year Project
