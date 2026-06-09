@@ -71,7 +71,7 @@ const styles = {
   link: {
     color: 'rgba(255,255,255,0.85)',
     textDecoration: 'none',
-    fontSize: '14px',
+    fontSize: '15px',
     padding: '6px 16px',
     borderRadius: '20px',
     border: '1px solid rgba(255,255,255,0.2)',
